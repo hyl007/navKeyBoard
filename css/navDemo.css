@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgba(240,252,243,1) no-repeat center center;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.keyboard{
+    display: inline-block;
+    background-color: rgba(246,248,250,1);
+    border-radius: 16px;
+    padding: 10px 0px 7px;
+    box-shadow: 0px 0px 0px 1px rgba(216,219,242,0.6),1px 1px 0px 3px rgba(216,219,242,0.2);
+
+}
+kbd{
+    display: inline-block;
+    position: relative;
+}
+.kbdSet{
+    width: 50px;
+    height: 40px;
+    background-color: #fff;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 0px 0px rgba( 225,235,245,0.75 );
+    border-radius: 7px;
+    margin: 0px 6px;
+    font-size: 16px;
+    color: rgba( 0,4,12,0.3);
+}
+
+.kbdSet .text{
+    position: absolute;
+    left: 6px;
+    top: 2px;
+}
+.kbdSet img{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 4px;
+    bottom: 2px;
+}
+.row{
+    margin: 8px 0px;
+
+}
+.row:nth-of-type(1){
+    margin-top: 15px;
+}
+.row:nth-of-type(5){
+    margin-bottom: 15px;
+}
+
+kbd button{
+    position: absolute;
+    right:4px;
+    bottom: 2px;
+    display: none;
+    color: white;
+    font-size: 12px;
+
+}
+button{
+    border: none;
+    background: #FFA500;
+    padding: 0px 2px;
+    font-family: Helvetica , sans-serif;
+    font-weight: bold;
+}
+button:hover{
+    background: #333333;
+}
+
+button:focus{
+    outline: none;
+}
+kbd:hover > button{
+    display: inline-block;
+}
+
+.keyboard .row:nth-of-type(1) kbd:nth-of-type(14){
+    width: 90px;
+}
+.keyboard .row:nth-of-type(2) kbd:nth-of-type(1){
+    width: 90px;
+}
+.keyboard .row:nth-of-type(3) kbd:nth-of-type(1){
+    width: 100px;
+}
+.keyboard .row:nth-of-type(3) kbd:nth-of-type(13){
+    width: 100px;
+}
+.keyboard .row:nth-of-type(4) kbd:nth-of-type(1){
+    width: 130px;
+}
+.keyboard .row:nth-of-type(4) kbd:nth-of-type(12){
+    width: 130px;
+}
+.keyboard .row:nth-of-type(5) kbd:nth-of-type(1){
+    left: 28px;
+}
+.keyboard .row:nth-of-type(5) kbd:nth-of-type(2){
+    left: 28px;
+}
+.keyboard .row:nth-of-type(5) kbd:nth-of-type(3){
+    left: 28px;
+}
+.keyboard .row:nth-of-type(5) kbd:nth-of-type(4){
+    width: 75px;
+    left: 28px;
+}
+.keyboard .row:nth-of-type(5) kbd:nth-of-type(5){
+    width: 280px;
+    left: 28px;
+}
+
+.keyboard .row:nth-of-type(5) kbd:nth-of-type(6){
+    width: 75px;
+    left: 28px;
+}
+.keyboard .row:nth-of-type(5) kbd:nth-of-type(7){
+    left: 28px;
+}
+.keyboard .row:nth-of-type(5) kbd:nth-of-type(8){
+    height: 20px;
+    left: 34px;
+}
+.keyboard .row:nth-of-type(5) kbd:nth-of-type(9){
+    height: 20px;
+    left: 33px;
+    top: -22px;
+}
+.keyboard .row:nth-of-type(5) kbd:nth-of-type(10){
+    height: 20px;
+    right: 28px;
+}
+.keyboard .row:nth-of-type(5) kbd:nth-of-type(11){
+    height: 20px;
+    right: 28px;
+}
+
+.keyboard .row:nth-of-type(1) kbd:nth-of-type(14) .text{
+    left: 6px;
+    top: 9px;
+}
+.keyboard .row:nth-of-type(5) kbd:nth-of-type(8) .text{
+    left: 15px;
+
+}
+.keyboard .row:nth-of-type(5) kbd:nth-of-type(9) .text{
+    left: 20px;
+
+}
+.keyboard .row:nth-of-type(5) kbd:nth-of-type(10) .text{
+    left: 20px;
+
+}
+.keyboard .row:nth-of-type(5) kbd:nth-of-type(11) .text{
+    left: 15px;
+}
+
+
